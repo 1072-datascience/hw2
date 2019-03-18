@@ -64,7 +64,7 @@ Correct answer gets 18 points of each testing data.
 
 - Output format without “: 3 points
 - Number in 2 digitals : 3 points
-- Set format without file path & .csv: 4 points
+- Set format without file path: 4 points
 
 ## Penalty
 

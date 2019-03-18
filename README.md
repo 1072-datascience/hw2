@@ -18,7 +18,7 @@ Rscript hw2_yourID.R --target male/female --input meth1 meth2 ... methx --output
 ## Inputs
 
 * examples/method1.csv
-* where the last column, pred.score, is the predicted probability of "Male".
+* the last column, pred.score, is the predicted probability of "Male".
 
 
 persons,prediction,reference,pred.score
@@ -63,8 +63,8 @@ Correct answer gets 18 points of each testing data.
 ## Bonus
 
 - Output format without “: 3 points
-- Set format without file path: 3 points
-- Set format without .csv: 4 points
+- Number in 2 digitals : 3 points
+- Set format without file path & .csv: 4 points
 
 ## Penalty
 

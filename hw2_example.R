@@ -13,7 +13,7 @@ query_func<-function(query_m, i)
 # read parameters
 args = commandArgs(trailingOnly=TRUE)
 if (length(args)==0) {
-  stop("USAGE: Rscript hw2_yourID.R --target male|female --inputs file1 file2 ... filen --output out.csv", call.=FALSE)
+  stop("USAGE: Rscript hw2_yourID.R --target male|female --input file1 file2 ... filen --output out.csv", call.=FALSE)
 }
 
 # parse parameters

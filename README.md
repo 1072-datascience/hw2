@@ -55,8 +55,8 @@ Rscript hw2_yourID.R --target female --input examples/method2.csv examples/metho
 5 testing data
 
 ```R
-Rscript hw2_5566.R --target male --inputs hw2/data/set1/method1.csv hw2/data/set1/method2.csv … --output hw2/your_ID/output1.csv
-Rscript hw2_5566.R --target female --inputs hw2/data/set2/method1.csv hw2/data/set2/method2.csv … --output hw2/your_ID/output2.csv
+Rscript hw2_5566.R --target male --input hw2/data/set1/method1.csv hw2/data/set1/method2.csv … --output hw2/your_ID/output1.csv
+Rscript hw2_5566.R --target female --input hw2/data/set2/method1.csv hw2/data/set2/method2.csv … --output hw2/your_ID/output2.csv
 ```
 Correct answer gets 18 points of each testing data.
 

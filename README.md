@@ -14,6 +14,7 @@ Rscript hw2_yourID.R --target male/female --input meth1 meth2 ... methx --output
 * Positive case defined by “--target” option
 * Find out which method contains the max
 * yourID should be your student ID number, i.e., hw2_106769999.R
+* You should write your own function to calculate sensitivity, specificity and F1 except AUC which could be done by ROCR package. 
 
 ## Inputs
 
@@ -67,5 +68,5 @@ Correct answer gets 18 points of each testing data.
 - Set format without file path: 4 points
 
 ## Penalty
-
+- can not detect missing --input/--ouptut flag 
 - -2 points of each problem

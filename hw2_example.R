@@ -23,7 +23,7 @@ while(i < length(args))
   if(args[i] == "--target"){
     query_m<-args[i+1]
     i<-i+1
-  }else if(args[i] == "--inputs"){
+  }else if(args[i] == "--input"){
     j<-grep("-", c(args[(i+1):length(args)], "-"))[1]
     files<-args[(i+1):(i+j-1)]
     i<-i+j-1

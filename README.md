@@ -35,13 +35,11 @@ person4,female,female,0.148418645840138
 ## Output
 * examples/output1.csv
 
-method,sensitivity,specificity,F1,AUC
-
-method1,0.91,0.96,0.85,0.79
-
-method2,0.99,0.98,0.86,0.70
-
-highest,method2,method2,method2,method1
+method |sensitivity|specificity|F1     |AUC
+-------|-----------|-----------|-------|---
+method1|0.91       |0.96       |0.85   |0.79
+method2|0.99       |0.98       |0.86   |0.70
+highest|method2    |method2    |method2|method1
 
 ## Examples
 
@@ -60,6 +58,8 @@ Rscript hw2_5566.R --target male --input hw2/data/set1/method1.csv hw2/data/set1
 Rscript hw2_5566.R --target female --input hw2/data/set2/method1.csv hw2/data/set2/method2.csv … --output hw2/your_ID/output2.csv
 ```
 Correct answer gets 18 points of each testing data.
+**Please do not set input/output in your local path or URL.** 
+Otherwise, your code will fail due to fixed path problem.
 
 ## Bonus
 

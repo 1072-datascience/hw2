@@ -35,11 +35,13 @@ person4,female,female,0.148418645840138
 ## Output
 * examples/output1.csv
 
-method |sensitivity|specificity|F1     |AUC
--------|-----------|-----------|-------|---
-method1|0.91       |0.96       |0.85   |0.79
-method2|0.99       |0.98       |0.86   |0.70
-highest|method2    |method2    |method2|method1
+method,sensitivity,specificity,F1,AUC
+
+method1,0.91,0.96,0.85,0.79
+
+method2,0.99,0.98,0.86,0.70
+
+highest,method2,method2,method2,method1
 
 ## Examples
 
